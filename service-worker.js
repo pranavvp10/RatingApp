@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pranavvp10/RatingApp/precache-manifest.a97b39ca947c1c17430d961dda216bc6.js"
+  "/RatingApp/precache-manifest.745432f6da2ca0e59fa07c2cdf910c95.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pranavvp10/RatingApp/index.html", {
+workbox.routing.registerNavigationRoute("/RatingApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
